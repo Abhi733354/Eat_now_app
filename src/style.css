@@ -393,17 +393,13 @@ h1, h2, h3, h4, h5, h6 {
   
     font-size: 1.8rem;
     line-height: 1.5;
-    /* text-align: top; */
     font-weight: 300;
     color: rgb(255, 255, 255);
-    cursor: pointer;
-    /* border-radius: 0.6rem; */
-    /* vertical-align: super; */
+    cursor: pointer;  
   padding-bottom: 300px!important;
     text-decoration: none;
 }
 .addrestaurant:hover {
-  /* background: #ffb03b; */
   color: #fff;
 }
 
@@ -420,39 +416,28 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 #hero select{
-  /* border-radius: 0.9rem; */
     width: 15rem;
-    /* height: 100%; */
     font-size: 15px;
     font-weight: 500;
-    /* display: inline; */
-    /* position: relative; */
     padding-top: 15px;
     margin-left: 50px;
-    /* margin-bottom:10px; */
+   
 }
 #search_button{
   background: rgb(246, 44, 44);
   color: #fff;
-  /* white-space: nowrap; */
   font-size: 15px;
   font-weight: 500px;
   text-decoration: none;
   margin-top: 50px;
-  /* padding-right: 200px!important; */
   padding-top: 16px;
   padding-bottom: 3px;
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
-  /* width: 25rem; */
-  /* border-radius: 0.9rem; */
-  /* margin: 0 0 0 20px; */
-  /* margin-bottom: 25px;
-  padding:10px; */
+
 
   letter-spacing: 1.5px;
-  /* transition: 0.3s; */
   
 }
 #hero h2 span {
