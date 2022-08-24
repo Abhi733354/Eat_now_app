@@ -18,14 +18,14 @@ const Restaurant = () => {
     // console.log('Header---------------------', cartData.restDetails);
 
     const callApi = async () => {
-        const url = 'http://localhost:4000/restaurants/search/'+tempId.id;
+        const url = 'https://immense-atoll-72999.herokuapp.com/restaurants/search/'+tempId.id;
         const response = await axios.get(url);
         setRestData(response.data);
     }
 
     //api call for restaurant menu items
     const callApiMenu = async () => {
-        const url = 'http://localhost:4000/menu/'+tempId.id;
+        const url = 'https://immense-atoll-72999.herokuapp.com/menu/'+tempId.id;
         const response = await axios.get(url);
         setMenu(response.data);
     }

@@ -13,7 +13,7 @@
                     console.log(tempData2.city);
 
                     const apiCall = async () => {
-                        const url = 'http://localhost:4000/restaurants/'+tempData2.city;
+                        const url = 'https://immense-atoll-72999.herokuapp.com/restaurants/'+tempData2.city;
                         const responseApi = await axios.get(url);
                         console.log(responseApi);
                         setList(responseApi.data);

@@ -19,7 +19,7 @@ const Registration = () => {
     tempObj.mobile = inputRef4.current.value;
     tempObj.password = inputRef5.current.value;
     if(tempObj.username !== '' && tempObj.email !== '' && tempObj.password !== '') {
-      const url = 'http://localhost:4000/user/adduser';
+      const url = 'https://immense-atoll-72999.herokuapp.com/user/adduser';
       const response = await axios.post(url, tempObj);
       console.log(response);
       if(response.status === 201) {

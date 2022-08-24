@@ -15,7 +15,7 @@ const Cart = () => {
     const placeOrderFn = async() => {
         console.log('-------placing order');
         try{
-            const url = 'http://localhost:4000/orders/placeorder';
+            const url = 'https://immense-atoll-72999.herokuapp.com/orders/placeorder';
             const tempObj = {
                 username: loginData.loginDataRedux.username,
                 rest_id: cartData.restDetails.rest_id,
