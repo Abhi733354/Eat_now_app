@@ -71,19 +71,19 @@ const Restaurant = () => {
                     
                         <div className="col-6">
                         
-                            <img src={rest_data.image || 'https://i.ytimg.com/vi/BEyloCJlpm0/maxresdefault.jpg'} className="img-fluid food-image-large"/>
+                            <img src={rest_data.image || 'https://media.timeout.com/images/105361156/750/422/image.jpg'} className="img-fluid food-image-large"/>
                         </div>
                        
                         <div className="col-6">
                             <div className="row">
                                 <div className="col-6">
-                                    <img src={rest_data.image2 || 'https://i.ytimg.com/vi/BEyloCJlpm0/maxresdefault.jpg'} className="img-fluid food-image-small"/>
+                                    <img src={rest_data.image2 || 'https://media-cdn.tripadvisor.com/media/photo-s/16/6f/8c/be/our-secret-smashed-avo.jpg'} className="img-fluid food-image-small"/>
                                 </div>
                                 <div className="col-6">
-                                    <img src={rest_data.image3 || 'https://i.ytimg.com/vi/BEyloCJlpm0/maxresdefault.jpg'} className="img-fluid food-image-small"/>
+                                    <img src={rest_data.image3 || 'https://media-cdn.tripadvisor.com/media/photo-s/0e/1b/64/79/our-smashed-avocado-on.jpg'} className="img-fluid food-image-small"/>
                                 </div>
                                 <div className="col-6 mt-4">
-                                    <img src={rest_data.image4 || 'https://i.ytimg.com/vi/BEyloCJlpm0/maxresdefault.jpg'} className="img-fluid food-image-small"/>
+                                    <img src={rest_data.image4 || 'https://media-cdn.tripadvisor.com/media/photo-s/19/42/95/8a/chef-s-signature-smashed.jpg'} className="img-fluid food-image-small"/>
                                 </div>
                                 <div className="col-6 mt-4">
                                     <img src={rest_data.image5 || img5} className="img-fluid food-image-small"/>
