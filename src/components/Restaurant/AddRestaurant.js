@@ -43,7 +43,7 @@
     return (
         <>
         <section className="about-heading">
-                    <h2>Registration Form</h2>
+                    <h2>Add Restaurant</h2>
         </section>
         <section id="" className="about-heading">
 
