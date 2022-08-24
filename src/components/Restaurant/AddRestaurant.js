@@ -98,38 +98,6 @@
                         </div>
                         </div>
                     </div>
-                    <div className="form-group row">
-                        <label className="col-sm-2 col-form-label">Image</label>
-                        <div className="col-sm-10">
-                        <div class="mb-3">
-                        <input type="text" className="form-control" ref={inputRef4} placeholder="url 2"/>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="form-group row">
-                        <label className="col-sm-2 col-form-label">Image</label>
-                        <div className="col-sm-10">
-                        <div class="mb-3">
-                        <input type="text" className="form-control" ref={inputRef4} placeholder="url 3"/>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="form-group row">
-                        <label className="col-sm-2 col-form-label">Image</label>
-                        <div className="col-sm-10">
-                        <div class="mb-3">
-                        <input type="text" className="form-control" ref={inputRef4} placeholder="url 4"/>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="form-group row">
-                        <label className="col-sm-2 col-form-label">Image</label>
-                        <div className="col-sm-10">
-                        <div class="mb-3">
-                        <input type="text" className="form-control" ref={inputRef4} placeholder="url 5"/>
-                        </div>
-                        </div>
-                    </div>
                     
                     <div className="form-group row">
                         <div className="col-sm-10">
