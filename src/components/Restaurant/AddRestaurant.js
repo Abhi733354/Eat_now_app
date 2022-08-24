@@ -23,7 +23,7 @@
         if(tempObj.rest_name !== '' && tempObj.location !== '' && tempObj.category !== '') {
 
             try{
-                const url = 'http://localhost:4000/restaurants';
+                const url = 'https://immense-atoll-72999.herokuapp.com/restaurants';
                 const response = await axios.post(url, tempObj);
                 console.log(response);
                 if(response.status === 201) {
