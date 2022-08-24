@@ -83,10 +83,10 @@ const Restaurant = () => {
                                     <img src={rest_data.image3 || 'https://media-cdn.tripadvisor.com/media/photo-s/0e/1b/64/79/our-smashed-avocado-on.jpg'} className="img-fluid food-image-small"/>
                                 </div>
                                 <div className="col-6 mt-4">
-                                    <img src={rest_data.image4 || 'https://media-cdn.tripadvisor.com/media/photo-s/19/42/95/8a/chef-s-signature-smashed.jpg'} className="img-fluid food-image-small"/>
+                                    <img src={rest_data.image4 || 'https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg'} className="img-fluid food-image-small"/>
                                 </div>
                                 <div className="col-6 mt-4">
-                                    <img src={rest_data.image5 || 'https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg'} className="img-fluid food-image-small"/>
+                                    <img src={rest_data.image5 || 'https://media-cdn.tripadvisor.com/media/photo-s/19/42/95/8a/chef-s-signature-smashed.jpg'} className="img-fluid food-image-small"/>
                                 </div>
                             </div>
                         </div>
