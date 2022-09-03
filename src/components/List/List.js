@@ -55,7 +55,7 @@
                                 
                                 {list.length === 0 && (
                                     <h2 className="">
-                                        No restaurants available in this area.
+                                        Please wait...
                                     </h2>
                                 )}
                             
