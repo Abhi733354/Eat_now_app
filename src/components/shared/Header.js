@@ -25,7 +25,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <h1><Link to="/">Zomato</Link></h1>
+        <h1><Link to="/">Eat Now</Link></h1>
         {/* <!-- Uncomment below if you prefer to use an image logo  */}
         {/* <img src="img/logo.png" alt="" class="img-fluid"/> */}
       </div>

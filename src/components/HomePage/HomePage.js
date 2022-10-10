@@ -17,7 +17,7 @@
                      </span>
                 
                 
-                  <h2 class="animate__animated animate__fadeInDown"><span></span>Zomato</h2>
+                  <h2 class="animate__animated animate__fadeInDown"><span></span>Food To Go</h2>
                   
                   <h3 class="animate__animated animate__fadeInUp">Discover the best food & drinks in your city</h3>
                   {/* <input type="text" onChange={(e) => setCity(e.target.value)} value={city}/>      */}
